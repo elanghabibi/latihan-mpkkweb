@@ -1,6 +1,6 @@
 # Latihan MPKK Web Pak Faisal
 
-Repositori ini berisi hasil latihan saya dalam membangun website front end menggunakan **HTML**, **CSS** dan bahkan **Javascript**.  
+Repositori ini berisi hasil latihan ku dalam membangun website front end menggunakan **HTML**, **CSS** dan bahkan **Javascript**.  
 Saat ini, proyek baru hanya memiliki **header** dan **banner** sebagai bagian awal.
 
 ---
