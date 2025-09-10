@@ -76,13 +76,13 @@ header {
   gap: 2rem;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: var(--gray-50);
   width: 20%;
   height: 100vh;
   border-left: 1px solid var(--gray-300);
   padding: 2.5rem;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -95,8 +95,7 @@ header {
 .header__nav-mobile__btn-back {
   display: flex;
   align-items: center;
-  width: 100%;
-  justify-content: end;
+  width: fit-content;
   cursor: pointer;
 }
 
@@ -221,4 +220,15 @@ main {
   /* End Banner Section */
 
   /* End Main Content */
+}
+
+
+@media (max-width: 384px) {
+  /* Banner Section */
+
+  .banner-sect {
+    height: 12rem;
+  }
+
+  /* End Banner Section */
 }
